@@ -1,2 +1,4 @@
 psutil
 pygame
+pyaudio
+numpy
