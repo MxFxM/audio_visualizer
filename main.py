@@ -5,7 +5,7 @@ import os
 
 while True:
     last_time = os.path.getmtime("audio_visualizer.config")
-    cmd = ["/home/mxfxm/.pyenv/versions/3.8.15/bin/python", "/home/mxfxm/Repositories/led_wall_simulator/audio_visualizer.py"]
+    cmd = ["python3", "audio_visualizer.py"]
     process  = subprocess.Popen(cmd)
 
     while True:
